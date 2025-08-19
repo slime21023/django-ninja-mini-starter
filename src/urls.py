@@ -33,7 +33,6 @@ def health_check(request):
   health_data = {
       "status": "healthy",
       "message": "Service is running",
-      "timestamp": "2024-08-19T11:09:00Z"
   }
   
   return Response(
